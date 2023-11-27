@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+    color: #fff;
+}
+
+
+.call-section{
+    margin-left: calc(50vw - 170px);
+    margin-top: calc(50vh - 300px);
+    max-width: 350px;
+    background-color: #b9b9b9;
+    box-shadow: 15px 5px 15px 3px hsla(51, 100%, 50%, 0.5);
+    border-radius: 1rem;
+}
+
+.call-container{
+    padding: 5em 2em;
+}
+
+.sects{
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+
+.sect-icon {
+    background-color: gold;
+    margin-right: 2rem;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.sect-icon svg{
+    font-size: 2rem;
+}
+
+.sects button{
+    width: 10rem;
+    padding: 1em;
+    border: none;
+    outline: none;
+    background-color: #238db5;
+    color: gold;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    box-shadow: 15px 5px 15px 3px gold;
+}
+
+.text-area-call{
+    text-align: center;
+    margin-top: 5rem;
+    color:  #238db5;
+    font-weight: 700;
+}
